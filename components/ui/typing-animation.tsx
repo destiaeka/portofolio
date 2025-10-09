@@ -15,6 +15,7 @@ interface TypingAnimationProps extends MotionProps {
   delay?: number
   pauseDelay?: number
   loop?: boolean
+  speed?: number
   as?: React.ElementType
   startOnView?: boolean
   showCursor?: boolean
@@ -32,6 +33,7 @@ export function TypingAnimation({
   delay = 0,
   pauseDelay = 1000,
   loop = false,
+  speed= 2000,
   as: Component = "span",
   startOnView = true,
   showCursor = true,
