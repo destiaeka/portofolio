@@ -37,6 +37,7 @@ cd portofolio
 npm install
 
 npm run dev
+```
 
 Then open your browser and go to:
 🖥️ http://localhost:3000
