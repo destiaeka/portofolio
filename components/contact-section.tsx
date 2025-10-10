@@ -9,7 +9,7 @@ export function ContactSection() {
 
   const handleWhatsApp = () => {
     window.open(
-      "https://wa.me/6282244307548?text=Halo%20Destika,%20saya%20tertarik%20dengan%20portfolio%20Anda!",
+      "https://wa.me/6282244307548?text=Halo%20Destia Eka,%20saya%20tertarik%20dengan%20portfolio%20Anda!",
       "_blank"
     )
     setShowModal(false)
@@ -17,7 +17,7 @@ export function ContactSection() {
 
   const handleEmail = () => {
     window.location.href =
-      "mailto:destiaeka38@gmail.com?subject=Halo%20Destika&body=Hai%20Destika,%20saya%20tertarik%20dengan%20portfolio%20Anda!"
+      "mailto:destiaeka38@gmail.com?subject=Halo%20Destia Eka&body=Hai%20Destika,%20saya%20tertarik%20dengan%20portfolio%20Anda!"
     setShowModal(false)
   }
 
